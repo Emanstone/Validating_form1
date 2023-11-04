@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Validating Form</title>
+    <link rel="stylesheet" href="./valid.css">
+    <script src="./valid.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Manuel's Js Validating Form</h1>
+
+        <form action="/" name="myform" onsubmit="return validateForm()" method="!#">
+            
+            <div class="icontrol" id="name">
+                <span class="formerror"></span>
+                <input type="text" name="fname" placeholder="Full Name" required>
+               
+            </div>
+
+            <div class="icontrol" id="email">
+                <span class="formerror"></span>
+                <input type="email" name="femail" placeholder="Email" required>
+                
+
+            </div>
+
+            <div class="icontrol" id="phone" required>
+                <span class="formerror"></span>
+                <input type="phone" name="fphone" placeholder="Phone Number" required>
+                
+            </div>
+
+            <div class="icontrol p1" id="pass" required>
+                <span class="formerror"></span>
+                <input type="password" name="fpass" placeholder="Password" required>
+                
+            </div>
+
+            <div class="icontrol p2" id="cpass">
+                <span class="formerror"></span>
+                <input type="text" name="fcpass" placeholder="Confirm Password" required>
+                
+            </div>
+
+            <input type="submit" class="but" value="Submit">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

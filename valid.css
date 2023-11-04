@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    font-family: 'Poppins' sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+form{
+    width: 40%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+    padding-top: 25px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    font-size: 18px;
+    color: aliceblue;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #32cd32;
+}
+
+.but{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    background-color: #32cd32;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid black!important;
+    border-radius: 4px;
+}
+
+.icontrol input{
+    display: inline-block;
+    /* border: 2px, solid, red; */
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.icontrol label{
+    font-size: 20px;
+}
+
+/* .p2 input{
+    width: 39%;
+}
+
+.p1 input{
+    width: 47%;
+} */
+
+.formerror{
+    font-size: 15px;
+    color: rgb(255, 115, 115);
+}
+
+/* .e1 input{
+    width: 70%;
+} */
+
+/* .icontrol input:focus{
+    outline: 0;
+}
+
+.icontrol.success input{
+    border-color: chartreuse;
+}
+
+.icontrol.error input{
+    border-color: darkred;
+}
+
+.icontrol.error{
+    color: darkred;
+    font-size: 15px;
+    height: 15px;
+}
+
+.icontrol .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+} */
